@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Invoice</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <!-- <strong>DB LOGISTICS</strong> -->
+                <strong>HARRY & LLOYD LOGISTICS</strong>
+                <p>Ground Floor, A-162, Sector-69, Transport Nagar, Noida</p>
+                <p>Gautambuddha Nagar, Uttar Pradesh, 201307</p>
+                <p>Mobile: 9999210869, 9310275220</p>
+                <p>E-mail: <a href="mailto:dblogistics@gmail.com">dblogistics@gmail.com</a></p>
+            </div>
+            <div class="mid">
+                <h2>All Subject to Noida Jurisdiction only</h2>
+
+                <img src="img/logo.png" alt="logo">
+            </div>
+            <div class="end">
+                <div>
+                    <p><strong>GSTIN :</strong> 09AAVFD3073B1ZD</p>
+                    <p><strong>PAN No. :</strong> AAVFD3073B</p>
+                    <p><strong>SAR CODE :</strong> 996791</p>
+                    <p><strong>Goods Receipt AT OWNER'S RISK</strong></p>
+                </div>
+                <h3>CONSIGNMENT NOTE NO : 169</h3>
+            </div>
+        </header>
+        <main>
+
+            <div class="box1">
+                <div>
+                    <h2>CAUTION</h2>
+                    <strong>The consignment will not be detained diverted re-routed or re-booked without Consignee
+                        Bank's
+                        Written permissiop will be delivered at the destination.</strong>
+                </div>
+                <div>
+                    <form class="consignor-form" action="">
+                        <label for="Consignor">Consignor :</label>
+                        <input type="text" id="Consignor">
+
+                        <label for="Address">Address :</label>
+                        <input type="text" id="Address">
+
+                        <label for="TIN">TIN No. :</label>
+                        <input type="text" id="TIN">
+
+                        <label for="From">From :</label>
+                        <input type="text" id="From">
+
+                        <label for="To">To:</label>
+                        <input type="text" id="To">
+                    </form>
+
+                </div>
+                <div>
+                    <form class="consignee-form" action="">
+                        <label for="Consignee">Consignee :</label>
+                        <input type="text" id="Consignee">
+
+                        <label for="Address">Address :</label>
+                        <input type="text" id="Address">
+
+                        <label for="TIN">TIN No. :</label>
+                        <input type="text" id="TIN">
+
+                        <label for="Date">Date of Booking :</label>
+                        <input type="text" id="Data">
+                    </form>
+
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="gst-heading">
+                <div>
+                    <h4>GST</h4>
+                </div>
+                <div>
+                    <div class="checkbox-section">
+                        <label>
+                            <input type="checkbox"> CONSIGNOR
+                        </label>
+                        <label>
+                            <input type="checkbox"> CONSIGNEE
+                        </label>
+                        <label>
+                            <input type="checkbox"> TRANSPORTER
+                        </label>
+                    </div>
+                    <div class="service-section">
+                        <h4>DAILY SERVICE :</h4>
+                        <p>RUDRAPUR, KASHIPUR</p>
+                        <p>HALDWANI, KHATIMA</p>
+                        <p>TANAKPUR, ROORKEE</p>
+                        <p>HARIDWAR, DEHRADUN</p>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="pkgs">
+                <div>
+                    <h4>No. of Pkgs.</h4>
+                </div>
+            </div>
+            <div class="method">
+                <div>
+                    <h4>Method of Packing</h4>
+                </div>
+            </div>
+            <div class="contain">
+                <div>
+                    <h4>Contaents as said to Contain</h4>
+                </div>
+            </div>
+            <div class="private">
+                <div>
+                    <h4>Private Mark</h4>
+                </div>
+            </div>
+            <div class="weight">
+                <div>
+                    <h4>Weight</h4>
+                </div>
+                <div class="weightparts">
+                    <div>
+                        <h4>ACTUAL</h4>
+                    </div>
+                    <div>
+                        <h4>CHARGED</h4>
+                    </div>
+                    <div>
+                        <h4>RATE</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="charges">
+                <div>
+                    <h4>Charges</h4>
+
+                </div>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Freight</td>
+                        </tr>
+
+                        <tr>
+                            <td>Hamali</td>
+                        </tr>
+                        <tr>
+                            <td>LIC</td>
+                        </tr>
+
+                        <tr>
+                            <td>Door Delivery</td>
+                        </tr>
+                        <tr>
+                            <td>St. Charge</td>
+                        </tr>
+                        <tr>
+                            <td>Surcharge</td>
+                        </tr>
+                        <tr>
+                            <td>UPC</td>
+                        </tr>
+                        <tr>
+                            <td>TOTAL</td>
+                        </tr>
+                        <tr>
+                            <td>GST</td>
+                        </tr>
+                        <tr>
+                            <td>G. TOTAL</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+            <div class="total">
+                <div>
+                    <h4>Total Freight</h4>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Rs.</th>
+                                <th>P.</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+
+                <table>
+
+                    <tbody>
+
+                        <tr>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" value="100"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+            <div class="totalend">
+                <div>
+                    <h4>TO PAY</h4>
+                    <div>1</div>
+                </div>
+                <div>
+                    <h4>PAID</h4>
+                    <div>2</div>
+                </div>
+                <div>
+                    <h4>TO Be Billed</h4>
+                    <div>3</div>
+                </div>
+            </div>
+
+        </footer>
+
+        <div class="billbox">
+            <div>
+                <h4>FULL TRUCK LOAD ALL OVER INDIA</h4>
+            </div>
+            <div>
+                <form class="consignor-form" action="">
+                    <label for="Delivery">
+                        <h4>Delivery at :</h4>
+                    </label>
+                    <input type="text" id="Delivery">
+
+                    <label for="Phones">
+                        <h4>Phones :</h4>
+                    </label>
+                    <input type="text" id="Phones">
+
+                </form>
+
+            </div>
+            <div>
+                <div>
+                    <img src="img/rupees.png" id="rupees" alt="rupees">
+                </div>
+                <form class="consignee-form" action="">
+                    <label for="Consignee">
+                        <h4>Values :</h4>
+                    </label>
+                    <input type="text" id="Consignee">
+                </form>
+            </div>
+        </div>
+        <div class="endline">
+            <h3>*No responsibility for Leakage & Damage</h3>
+            <h3>Signature of the Booking Clerk (Full)..................................</h3>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

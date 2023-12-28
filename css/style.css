@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    --accent-color: rgb(0, 0, 0);
+}
+
+body,
+html {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    padding: 1rem;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid var(--accent-color);
+    padding: 1rem;
+}
+
+.mid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid>img {
+    width: 5rem;
+    height: 5rem;
+    margin-top: 1rem;
+}
+
+.end {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.end>h3 {
+    margin-top: 1rem;
+}
+
+main {
+    border: 2px solid var(--accent-color);
+    border-top: 0;
+    border-bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.box1 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.box1>div>strong {
+    margin-top: 0.7rem;
+    padding-left: 0.4rem;
+}
+
+.box1> :first-child {
+    padding: 0.1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 19rem;
+    border-right: 2px solid var(--accent-color);
+}
+
+.box1> :nth-child(2) {
+    width: 100%;
+    border-right: 2px solid var(--accent-color);
+}
+
+.box1> :nth-child(3) {
+    width: 100%;
+}
+
+.consignor-form,
+.consignee-form {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid var(--accent-color);
+    outline: none;
+    margin-bottom: 2.5px;
+}
+
+label {
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    justify-content: center;
+}
+
+footer>div {
+    border: 2px solid var(--accent-color);
+    border-right: 0;
+    display: flex;
+    width: 100%;
+}
+
+footer> :first-child {
+    min-width: 19rem;
+}
+
+footer> :first-child> :nth-child(2) {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+footer> :nth-child(2) {
+    max-width: 20rem;
+}
+
+footer> :nth-child(2) {
+    width: 50%;
+}
+
+footer> :nth-child(9) {
+    width: 55rem;
+}
+
+footer> :nth-child(7)> :first-child {
+    padding-bottom: 3.42rem;
+}
+
+footer> :nth-child(1)> :first-child,
+footer> :nth-child(2)> :first-child,
+footer> :nth-child(3)> :first-child,
+footer> :nth-child(4)> :first-child,
+footer> :nth-child(5)> :first-child,
+footer> :nth-child(6)> :first-child,
+footer> :nth-child(7)> :first-child,
+footer> :nth-child(8)> :first-child {
+    border-bottom: 2px solid var(--accent-color);
+}
+
+footer> :nth-child(1)> :first-child,
+footer> :nth-child(3)> :first-child,
+footer> :nth-child(5)> :first-child,
+footer> :nth-child(6)> :first-child,
+footer> :nth-child(7)> :first-child {
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 3.42rem;
+}
+
+footer> :nth-child(2)> :first-child,
+footer> :nth-child(4)> :first-child {
+    padding-bottom: 2.2rem;
+}
+
+.gst-heading,
+.pkgs,
+.method,
+.contain,
+.private,
+.weight,
+.charges,
+.total {
+    display: flex;
+    flex-direction: column;
+}
+
+.gst-heading>div,
+.pkgs>div,
+.method>div,
+.contain>div,
+.private>div,
+.weight>div,
+.charges>div,
+.total>div {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.pkgs>div,
+.method>div,
+.contain>div,
+.private>div,
+.weight>div,
+.charges>div,
+.total>div {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.checkbox-section,
+.service-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.totalend {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.totalend>div {
+    border: 2px solid var(--accent-color);
+    border-top: 0;
+    border-left: 0;
+
+    width: 100%;
+    height: 100%;
+}
+
+.totalend>div>div {
+    border-top: 2px solid var(--accent-color);
+    height: 100%;
+    padding: 1rem;
+}
+
+.totalend:last-child {
+    border-bottom: 0;
+}
+
+.totalend>div>h4 {
+    text-align: center;
+    padding: 0.3rem;
+}
+
+.weightparts {
+    height: 100%;
+}
+
+.weightparts>div {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    height: 100%;
+}
+
+.weightparts>div>h4 {
+    width: 100%;
+}
+
+.charges>table {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+
+.charges>table>tbody>tr>td {
+    display: flex;
+    margin-top: 5.9px;
+}
+
+.total>table {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+td>input {
+    display: flex;
+    width: 100%;
+    padding: 1.5px;
+    border: 1px solid var(--accent-color);
+}
+
+.billbox {
+    display: grid;
+    border: 2px solid var(--accent-color);
+    border-top: 0;
+    grid-template-columns: 266px 1fr 1fr;
+    width: 100%;
+    border-right: 0;
+}
+
+.billbox>div {
+    display: flex;
+    width: 100%;
+    border-right: 2px solid var(--accent-color);
+}
+
+.billbox>div>h4 {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.billbox>div>form {
+    width: 100%;
+}
+
+.billbox> :nth-child(3) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+.billbox> :nth-child(3)>div {
+    padding-left: 1rem;
+}
+
+#rupees {
+    width: 2rem;
+}
+
+.endline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+}
