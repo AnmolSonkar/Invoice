@@ -9,8 +9,10 @@
     --accent-color: rgb(0, 0, 0);
 }
 
+
 body,
 html {
+    zoom: .85;
     font-size: 14px;
     letter-spacing: 0.5px;
     height: 100%;
