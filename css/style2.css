@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    --accent-color: rgb(0, 0, 0);
+}
+
+body,
+html {
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    padding: 1rem;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid var(--accent-color);
+    padding: 1rem;
+}
+
+
+div>h3 {
+    margin-top: 0.7rem;
+}
+
+main {
+    border: 2px solid var(--accent-color);
+    border-top: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-bottom: 0;
+}
+
+.consignor-form {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid var(--accent-color);
+    outline: none;
+    margin-bottom: 2.5px;
+}
+
+label {
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    justify-content: center;
+    border-right: 2px solid var(--accent-color);
+
+}
+
+footer>div {
+    border: 2px solid var(--accent-color);
+    border-right: 0;
+    display: flex;
+    width: 100%;
+}
+
+footer> :nth-child(1)> :first-child,
+footer> :nth-child(2)> :first-child,
+footer> :nth-child(3)> :first-child,
+footer> :nth-child(4)> :first-child,
+footer> :nth-child(5)> :first-child,
+footer> :nth-child(6)> :first-child,
+footer> :nth-child(7)> :first-child,
+footer> :nth-child(8)> :first-child,
+footer> :nth-child(9)> :first-child {
+    border-bottom: 2px solid var(--accent-color);
+}
+
+footer> :nth-child(4)> :first-child {
+    min-width: 30rem;
+}
+
+.heading {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading>div {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+td>input {
+    display: flex;
+    width: 100%;
+    padding: 1.5px;
+    border: 1px solid var(--accent-color);
+}
+
+
+.endline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.headmid {
+    display: flex;
+}
+
+.headmid>div {
+    margin-right: 1rem;
+}
